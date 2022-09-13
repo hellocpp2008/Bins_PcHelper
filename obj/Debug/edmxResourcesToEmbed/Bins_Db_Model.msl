@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Bins_Pc_HelperModelStoreContainer" CdmEntityContainer="Bins_Pc_HelperEntities">
+    <EntitySetMapping Name="business_control">
+      <EntityTypeMapping TypeName="Bins_Pc_HelperModel.business_control">
+        <MappingFragment StoreEntitySet="business_control">
+          <ScalarProperty Name="logs" ColumnName="logs" />
+          <ScalarProperty Name="update_time" ColumnName="update_time" />
+          <ScalarProperty Name="create_time" ColumnName="create_time" />
+          <ScalarProperty Name="is_running" ColumnName="is_running" />
+          <ScalarProperty Name="business_type" ColumnName="business_type" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="quick_app_info">
+      <EntityTypeMapping TypeName="Bins_Pc_HelperModel.quick_app_info">
+        <MappingFragment StoreEntitySet="quick_app_info">
+          <ScalarProperty Name="update_time" ColumnName="update_time" />
+          <ScalarProperty Name="create_time" ColumnName="create_time" />
+          <ScalarProperty Name="is_del" ColumnName="is_del" />
+          <ScalarProperty Name="is_test" ColumnName="is_test" />
+          <ScalarProperty Name="pc_name" ColumnName="pc_name" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="path" ColumnName="path" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

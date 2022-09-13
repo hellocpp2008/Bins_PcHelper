@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bins_PcQuickStart", "Bins_PcQuickStart.csproj", "{A908803D-4A0E-4667-AD12-6B18E4669020}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Bins_Pc_Quick_installer", "..\Bins_Pc_Quick_installer\Bins_Pc_Quick_installer.vdproj", "{29BA2DC7-D1E4-41F2-A627-F677EC08A0CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A908803D-4A0E-4667-AD12-6B18E4669020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A908803D-4A0E-4667-AD12-6B18E4669020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A908803D-4A0E-4667-AD12-6B18E4669020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A908803D-4A0E-4667-AD12-6B18E4669020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29BA2DC7-D1E4-41F2-A627-F677EC08A0CC}.Debug|Any CPU.ActiveCfg = Debug
+		{29BA2DC7-D1E4-41F2-A627-F677EC08A0CC}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91365074-1F3C-4441-BF70-9FA8F2345DFA}
+	EndGlobalSection
+EndGlobal
